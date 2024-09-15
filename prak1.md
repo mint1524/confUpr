@@ -65,3 +65,24 @@ fi
 echo "File '$command_name' registrated successfully."
 ```
 ![image](https://github.com/mint1524/confUpr/blob/main/prak1/pics/kal5.png)
+
+## Задача 6
+
+```
+#!/bin/bash
+
+for file in *.c *.js *.py; do
+  if [ -f "$file" ]; then
+    first_line=$(head -n 1 "$file")
+    if [[ $file == *.c && $first_line == *"/*"* || \
+          $file == *.js && $first_line == *"//"* || \
+          $file == *.py && $first_line == *"#"* ]]; then
+      echo "Comment found in $file"
+    else
+      echo "No comment in $file"
+    fi
+  fi
+done
+```
+
+
