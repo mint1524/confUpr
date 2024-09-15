@@ -26,3 +26,14 @@ print("+", ''.join(['-' for i in range(len(a) + 2)]), "+", sep='')
 
 ## Задача 4
 
+```
+#!/bin/bash
+
+file="$1"
+grep -oE '\b[a-zA-Z_][a-zA-Z0-9_]*\b' "$file" | sort -u
+```
+![image](https://github.com/mint1524/confUpr/blob/main/prak1/pics/kal4.png)
+
+## Задача 5
+
+```
