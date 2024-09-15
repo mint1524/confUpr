@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 directory=$1
 
 declare -A file_hashes
@@ -19,12 +18,12 @@ for hash in "${!file_hashes[@]}"; do
 
 	if [[ $files_count -gt 1 ]]; then
 		found_duplicates=true
-		echo "Найдены дубликаты:"
+		echo "Dupes found:"
 		echo -e "$files"
 	fi
 done
 
 if ! $found_duplicates; then
-	echo "Дубликатов не найдено."
+	echo "No dupes."
 	exit 1
 fi
