@@ -2,6 +2,11 @@
 
 ## Задача 1
 
+Получить служебную информацию о пакете matplotlib можно при помощи команды:
+```
+pip show matplotlib
+```
+![image](https://github.com/mint1524/confUpr/blob/main/prak2/kal2.1.png)
 
 ## Задача 2
 
