@@ -59,7 +59,7 @@ BNF = '''
 E = 0 | 1 | E 0 | E 1
 '''
 ```
-![image](https://github.com/mint1524/confUpr/blob/main/prak3)
+![image](https://github.com/mint1524/confUpr/blob/main/prak3/kal3.1.png)
 
 ## Задача 4
 
