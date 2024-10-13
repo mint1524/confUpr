@@ -59,6 +59,7 @@ BNF = '''
 E = 0 | 1 | E 0 | E 1
 '''
 ```
+![image](https://github.com/mint1524/confUpr/blob/main/prak3/kal3.1.png)
 
 ## Задача 4
 
@@ -72,9 +73,10 @@ E = '' | '(' E ')' | '{' E '}' | E E
 
 ```
 BNF = '''
-E = '' | ( E ) | { E } | E E
+E = | ( E ) | { E } | E E
 '''
 ```
+![image](https://github.com/mint1524/confUpr/blob/main/prak3/kal3.2.png)
 
 ## Задача 5
 
@@ -96,5 +98,5 @@ T = F | T '&' F
 F = x | y | ~ G | G
 G = ( E ) | x | y
 '''
-
 ```
+![image](https://github.com/mint1524/confUpr/blob/main/prak3/kal3.3.png)
