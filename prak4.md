@@ -188,3 +188,4 @@ list_git_objects()
 ```
 
 ![image](https://github.com/mint1524/confUpr/blob/main/prak4/pic4.2.png)
+![image](https://github.com/mint1524/confUpr/blob/main/prak4/pic4.3.png)
