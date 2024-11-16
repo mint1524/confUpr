@@ -1,0 +1,20 @@
+minttttttt,ls,2024-10-06 19:08:55.883812
+minttttttt,exit,2024-10-06 19:09:01.737753
+minttttttt,ls,2024-10-06 19:14:34.429423
+minttttttt,ls,2024-10-06 19:15:37.504214
+minttttttt,cd,2024-10-06 19:15:52.072376
+minttttttt,exit,2024-10-06 19:16:19.343877
+minttttttt,ls,2024-10-06 19:28:06.033221
+minttttttt,cd,2024-10-06 19:28:11.034283
+minttttttt,cd,2024-10-06 19:44:15.647567
+minttttttt,cd home,2024-10-06 19:44:23.520395
+minttttttt,cd,2024-10-06 19:44:26.926172
+minttttttt,ls,2024-10-06 19:44:37.283357
+minttttttt,head file1.txt,2024-10-06 19:44:59.401554
+minttttttt,head ./home/user/file1.txt,2024-10-06 19:45:23.979780
+minttttttt,exit,2024-10-06 19:45:53.080356
+minttttttt,ls,2024-10-06 19:47:39.622990
+minttttttt,cd ./home,2024-10-06 19:48:12.141245
+minttttttt,ls,2024-10-06 19:48:15.099651
+minttttttt,exit,2024-10-06 19:48:45.181645
+minttttttt,ls,2024-10-07 16:27:58.715826
