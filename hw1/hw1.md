@@ -3,7 +3,7 @@
 ### Установка
 
 ```
-git clone https://github.com/tmint1524/confUpr.git
+git clone https://github.com/mint1524/confUpr.git
 cd confUpr/hw1
 ```
 
