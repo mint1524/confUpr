@@ -8,6 +8,7 @@
 * [Практика 2](https://github.com/mint1524/confUpr/blob/main/prak2.md)
 * [Практика 3](https://github.com/mint1524/confUpr/blob/main/prak3.md)
 * [Практика 4](https://github.com/mint1524/confUpr/blob/main/prak4.md)
+* [Практика 5](https://github.com/mint1524/confUpr/blob/main/prak5.md)
 
 ## Домашние задания
 
