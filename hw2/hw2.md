@@ -1,19 +1,5 @@
 # ДЗ 2
 
-## Описание
-
-**Программа:** Парсер конфигурационного языка.  
-**Назначение:** Преобразует входной текст на учебном языке в YAML, выявляя синтаксические ошибки.  
-
-**Поддерживаемые конструкции:**
-- **Комментарии:** `# текст`.
-- **Массивы:** `{значение, значение, ...}`.
-- **Словари:** `table(ключ => значение, ...)`.
-- **Переменные:** `var имя значение;`.
-- **Вызов переменных:** `[имя]`.
-
----
-
 ## Как запустить
 
 1. Клонируйте репозиторий
@@ -22,36 +8,23 @@
    cd confUpr/hw2
    ```
 
-3. Создайте файл конфигурации, например, `test_case_1.txt`.  
+3. Создайте гит-репозиторий, укажите данные от него в файле ```config.yaml```.  
    Пример содержимого:
-   ```text
-   var server_name "MyServer";
-   var server_ip "192.168.1.1";
-   var server_ports {80, 443};
-
-   table(
-     name => [server_name],
-     ip => [server_ip],
-     ports => [server_ports]
-   );
+   ```yaml
+   visualizer_path: /usr/local/bin/mmdc
+   repository_path: /Users/min7t/my_project
+   target_file_hash: hello.py
    ```
 
-4. Выполните команду в терминале:
+4. Выполните команды в терминале:
    ```bash
-   python3 lingoTranslator.py < test_case_1.txt > output.yaml
+   python3 main.py config.yaml
    ```
 
-3. Проверьте результат в файле `output.yaml`.  
+3. Проверьте результат в файле `graph.png`.  
 
 ---
 
-## Пример результата (YAML):
-```yaml
-- name:
-  - MyServer
-  ip:
-  - "192.168.1.1"
-  ports:
-  - - 80
-    - 443
-```
+## Пример результата:
+
+![image](https://github.com/mint1524/confUpr/blob/main/hw2/graph.png)
