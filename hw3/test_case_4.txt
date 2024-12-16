@@ -1,0 +1,8 @@
+# Пример с комментариями
+var color "Red"; # Цвет
+var size 10;     # Размер
+
+table(
+  color => [color],
+  size => [size]
+)

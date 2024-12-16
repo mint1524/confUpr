@@ -1,0 +1,10 @@
+# Настройка сервера
+var server_name "MyServer";
+var server_ip "192.168.1.1";
+var server_ports {80, 443};
+
+table(
+	name => [server_name],
+	ip => [server_ip],
+	ports => [server_ports]
+)

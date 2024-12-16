@@ -1,0 +1,10 @@
+# Конфигурация приложения
+var app_name "MyApp";
+var app_version "1.0.0";
+var app_enabled true;
+
+table(
+  name => [app_name],
+  version => [app_version],
+  enabled => [app_enabled]
+);

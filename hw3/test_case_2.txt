@@ -1,0 +1,10 @@
+# Конфигурация базы данных
+var db_host "localhost";
+var db_port 5432;
+var db_users { "admin", "user" };
+
+table(
+  host => [db_host],
+  port => [db_port],
+  users => [db_users]
+);
