@@ -15,5 +15,5 @@
 ## Домашние задания
 
 * [Домашнее задание 1](https://github.com/mint1524/confUpr/blob/main/hw1/hw1.md)
-* [Домашнее задание 1](https://github.com/mint1524/confUpr/blob/main/hw1/hw2.md)
-* [Домашнее задание 1](https://github.com/mint1524/confUpr/blob/main/hw1/hw3.md)
+* [Домашнее задание 2](https://github.com/mint1524/confUpr/blob/main/hw2/hw2.md)
+* [Домашнее задание 3](https://github.com/mint1524/confUpr/blob/main/hw3/hw3.md)
