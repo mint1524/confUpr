@@ -136,6 +136,6 @@ class ShellEmulator(tk.Tk):
 
 # Запуск эмулятора
 if __name__ == "__main__":
-    config = read_config('/Users/min7t/emulator/config.csv')
+    config = read_config('config.csv')
     app = ShellEmulator(config)
     app.mainloop()
